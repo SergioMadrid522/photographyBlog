@@ -1,0 +1,34 @@
+$gray-color: #cac5c4;
+$white-color: #fff;
+footer {
+    border-top: 1px solid $gray-color;
+    grid-area: footer;
+    padding: 15px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
+    .footer-content {
+        width: 75%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        ul {
+            list-style: none;
+            li {
+                margin: .7em 0;
+            }
+        }
+        .social-media-container {
+            ul {
+                li {
+                    display: inline-block;
+                    margin-right: 10px;
+                    a {
+                        svg{ 
+                            width: 20px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

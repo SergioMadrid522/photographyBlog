@@ -1,0 +1,14 @@
+/* DESKTOP */
+@media screen and (min-width: 1024px){
+}
+/* TABLETS */
+@media screen and (min-width: 768px) and (max-width: 1023px){
+    
+    .about-me {
+        background-color: red;
+    }
+}
+/* PHONES */
+@media screen and (max-width: 767px){
+    
+}

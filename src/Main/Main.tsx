@@ -1,7 +1,7 @@
 import './Main.css';
 
 import FaveSection from "./FaveSection/FaveSection"
-import GallerySection from "./GallerySection/GallerySection"
+import GallerySection from './GallerySection/GallerySection';
 
 function Main() {
     return (

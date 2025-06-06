@@ -1,0 +1,26 @@
+footer {
+  border-top: 1px solid #cac5c4;
+  grid-area: footer;
+  padding: 15px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: normal;
+}
+footer .footer-content {
+  width: 75%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+footer .footer-content ul {
+  list-style: none;
+}
+footer .footer-content ul li {
+  margin: 0.7em 0;
+}
+footer .footer-content .social-media-container ul li {
+  display: inline-block;
+  margin-right: 10px;
+}
+footer .footer-content .social-media-container ul li a svg {
+  width: 20px;
+}/*# sourceMappingURL=Footer.css.map */
