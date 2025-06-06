@@ -1,0 +1,9 @@
+@forward './Header/Header.css';
+:root {
+  display: grid;
+  grid-template-areas:
+    "header header"
+    "main main"
+    "about about"
+    "footer";
+}

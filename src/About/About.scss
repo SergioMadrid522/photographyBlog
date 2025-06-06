@@ -1,0 +1,36 @@
+.about-me {
+    background-color: #fff;
+    grid-area: about;
+    padding: 3.5em;
+    font-family: 'Montserrat', sans-serif;
+    h2 {
+        
+        font-size: 23px;
+        font-weight: 600;
+        margin-bottom: 25px;
+    }
+    .about-wrap {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 20em;
+        .me {
+            width: 40%;
+            p {
+                font-weight: 500;
+                font-size: 19.5px;
+                margin-bottom: 1.2em;
+            }
+        }
+        .my-pic {
+            width: 350px;
+            overflow: hidden;
+            object-position: top;
+            img {
+                width: 100%;
+                border-radius: 15px;
+                object-fit: contain;
+            }
+        }
+    }
+}

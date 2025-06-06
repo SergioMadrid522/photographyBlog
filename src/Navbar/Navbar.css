@@ -1,0 +1,37 @@
+a {
+  width: 100%;
+  color: #000;
+  text-decoration: none;
+}
+
+.active {
+  padding: 5px;
+  background-color: rgba(236, 237, 238, 0.8235294118);
+  border-radius: 6px;
+  transition: all 0.2s ease;
+}
+
+.principal-navbar {
+  background-color: #fff;
+  border-bottom: 1px solid #cac5c4;
+  position: sticky;
+  top: 0;
+  font-family: "Montserrat", sans-serif;
+  font-weight: normal;
+  z-index: 999;
+}
+.principal-navbar .navbar-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.8em 4.7em;
+}
+.principal-navbar .navbar-content ul {
+  display: flex;
+  justify-content: end;
+  list-style: none;
+  gap: 20px;
+}
+.principal-navbar .navbar-content ul a {
+  padding: 5px;
+}/*# sourceMappingURL=Navbar.css.map */

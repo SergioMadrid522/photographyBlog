@@ -1,0 +1,37 @@
+$gray-color: #cac5c4;
+$white-color: #fff;
+a {
+    width: 100%;
+    color: #000;
+    text-decoration: none;
+}
+.active {
+    padding: 5px;
+    background-color: #ecedeed2;
+    border-radius: 6px;
+    transition: all .2s ease;
+}
+.principal-navbar {
+    background-color: $white-color;
+    border-bottom: 1px solid $gray-color;
+    position: sticky;
+    top: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
+    z-index: 999;
+    .navbar-content {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 1.8em 4.7em;
+        ul {
+            display: flex;
+            justify-content: end;
+            list-style: none;
+            gap: 20px;
+            a {
+                padding: 5px;
+            }
+        }
+    }
+}
