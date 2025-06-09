@@ -1,1 +1,1 @@
-{"version":3,"sources":["_MediaQueries.scss","index.css","index.scss"],"names":[],"mappings":"AAAA,YAAA;AAGA,YAAA;AACA;EAEI;IACI,qBAAA;ECFN;AACF;ADIA,WAAA;AETA;EACE,aAAA;EACA,uEACE;ADOJ","file":"index.css"}
+{"version":3,"sources":["index.scss","index.css"],"names":[],"mappings":"AAAA;EACE,aAAA;EACA,uEACE;ACAJ","file":"index.css"}

@@ -1,5 +1,5 @@
 .FaveSection {
-    scroll-margin-top: 130px;
+    scroll-margin-top: 110px;
     h2 {
         font-size: 23px;
         font-weight: 600;
@@ -7,11 +7,10 @@
     }
     .my-masonry-grid {
         display: flex;
-        margin-left: -16px;
         width: auto;
     }
     .my-masonry-grid_column {
-        padding-left: 16px; 
+        padding: 5px; 
         background-clip: padding-box;
     }
     .image-card {

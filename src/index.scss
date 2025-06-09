@@ -1,4 +1,3 @@
-@forward './MediaQueries';
 :root {
   display: grid;
   grid-template-areas:
@@ -6,8 +5,4 @@
     "main main"
     "about about"
     "footer";
-}
-
-@media screen {
-  
 }

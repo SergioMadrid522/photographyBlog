@@ -17,16 +17,66 @@ footer .footer-content ul {
 footer .footer-content ul li {
   margin: 0.7em 0;
 }
+footer .footer-content .social-media-container ul {
+  text-align: center;
+}
 footer .footer-content .social-media-container ul li {
   display: inline-block;
-  margin-right: 10px;
 }
 footer .footer-content .social-media-container ul li a svg {
-  width: 20px;
+  width: 35px;
+}
+footer .footer-content .social-media-container ul li:nth-child(2) {
+  margin: 0 15px;
 }
 
-/* PHONES  441px*/
-@media screen and (max-width: 771px) {
+/* TABLETS */
+@media screen and (width >= 768px) and (width <= 1029px) {
+  header .main-pic img {
+    width: 100%;
+    -o-object-position: right center;
+       object-position: right center;
+  }
+  header .catch-phrase {
+    top: 35%;
+    left: 0;
+    width: 100%;
+  }
+  header .catch-phrase h1 {
+    font-size: 55px;
+  }
+  header .catch-phrase p {
+    font-size: 30px;
+  }
+  .about-me {
+    padding: 1em;
+  }
+  .about-me .about-wrap {
+    gap: 30px;
+  }
+  .about-me .about-wrap .me {
+    width: 75%;
+    margin: 0 auto;
+  }
+  footer li {
+    font-size: 19px;
+  }
+  footer .footer-content {
+    width: 100%;
+  }
+  footer .footer-content .social-media-container ul {
+    text-align: center;
+  }
+  footer .footer-content .social-media-container ul li a {
+    display: flex;
+    align-items: center;
+  }
+  footer .footer-content .social-media-container ul li a svg {
+    width: 35px;
+  }
+}
+/* PHONES */
+@media screen and (width <= 767px) {
   .principal-navbar .navbar-content {
     padding: 5px;
   }
@@ -59,9 +109,10 @@ footer .footer-content .social-media-container ul li a svg {
     margin: 0;
     padding: 0;
     display: block;
+    gap: 0;
   }
   .about-me .about-wrap .me {
-    width: 100%;
+    width: 90%;
     margin: 0 auto;
   }
   .about-me .about-wrap .my-pic {

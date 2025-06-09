@@ -1,8 +1,17 @@
 .gallery-section {
   scroll-margin-top: 130px;
+  font-weight: 500;
+  font-size: 19.5px;
+  margin-bottom: 1.2em;
 }
 .gallery-section h2 {
   font-size: 23px;
   font-weight: 600;
   margin-bottom: 25px;
+}
+.gallery-section .more-pictures {
+  text-align: center;
+}
+.gallery-section .more-pictures a:hover {
+  text-decoration: underline;
 }/*# sourceMappingURL=GallerySection.css.map */

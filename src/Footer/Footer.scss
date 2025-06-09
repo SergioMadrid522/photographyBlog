@@ -1,3 +1,4 @@
+//@forward '../MediaQueries';
 $gray-color: #cac5c4;
 $white-color: #fff;
 footer {
@@ -19,22 +20,83 @@ footer {
         }
         .social-media-container {
             ul {
+                text-align: center;
                 li {
                     display: inline-block;
-                    margin-right: 10px;
                     a {
                         svg{ 
-                            width: 20px;
+                            width: 35px;
                         }
+                    }
+                    &:nth-child(2) {
+                        margin:0 15px;
                     }
                 }
             }
         }
     }
 }
+/* TABLETS */
+@media screen and (width >= 768px) and (width <= 1029px) {
+    header {
+        .main-pic{
+            img {
+                width: 100%;
+                object-position: right center;
+            }
+        }
+        .catch-phrase {
+            top: 35%;
+            left: 0;
+            width: 100%;
+            h1 {
+                font-size: 55px;
+            }
+            p { 
+                font-size: 30px;
+            }
+        }
+    }
+    .about-me {
+        padding: 1em;
+        .about-wrap {
+            gap: 30px;
+            .me {
+                width: 75%;
+                margin: 0 auto;
+            }
+            
+        }
+    }
+    footer {
+        li {
+            font-size: 19px;
+        }
+        .footer-content {
+            width: 100%;
+            .social-media-container {
+                ul {
+                    text-align: center;
+                    li {
+                        a{ 
+                            display: flex;
+                            align-items: center;
+                            svg {
+                                width: 35px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }   
+}
 
-/* PHONES  441px*/
-@media screen and (max-width: 771px){
+/* PHONES */
+@media screen and (width <= 767px){
+    * {
+        //outline: 1px solid red;
+    }
     .principal-navbar {
         .navbar-content {
             padding: 5px;
@@ -67,12 +129,13 @@ footer {
     }
     .about-me {
         padding: 1em;
-        .about-wrap{
+        .about-wrap {
             margin: 0;
             padding: 0;
             display: block;
+            gap: 0;
             .me {
-                width: 100%;
+                width: 90%;
                 margin: 0 auto;
             }
             .my-pic {
@@ -80,7 +143,6 @@ footer {
                 margin-left: auto;
                 margin-right: auto;
                 margin-bottom: 25px;
-                
             }
         }
     }
@@ -110,4 +172,4 @@ footer {
             }
         }
     }   
-}
+} 
