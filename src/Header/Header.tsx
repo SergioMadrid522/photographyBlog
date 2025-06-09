@@ -1,4 +1,5 @@
 import './Header.css';
+import MainPicture from '../assets/MainPhoto.webp';
 
 type HeaderProps = {
     websiteName: string,
@@ -9,7 +10,7 @@ function Header(props:HeaderProps) {
     return(
         <header>
             <div className='main-pic'>
-                <img src="src/assets/42382203027.png" alt="Main picture" />
+                <img src={ MainPicture } alt="Main picture" />
             </div>
             <div className='catch-phrase'>
                 <h1>{websiteName}</h1>

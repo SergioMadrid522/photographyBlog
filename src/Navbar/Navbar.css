@@ -4,13 +4,12 @@ a {
   text-decoration: none;
 }
 
-.active {
-  padding: 5px;
-  background-color: rgba(236, 237, 238, 0.8235294118);
-  border-radius: 6px;
-  transition: all 0.2s ease;
-}
-
+/* .active {
+    padding: 5px;
+    background-color: #ecedeed2;
+    border-radius: 6px;
+    transition: all .2s ease;
+} */
 .principal-navbar {
   background-color: #fff;
   border-bottom: 1px solid #cac5c4;
@@ -34,4 +33,23 @@ a {
 }
 .principal-navbar .navbar-content ul a {
   padding: 5px;
+  position: relative;
+  width: 100%;
+}
+.principal-navbar .navbar-content ul a::before {
+  content: "";
+  border-radius: 4.5px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(227, 234, 241, 0.9529411765);
+  transform-origin: left;
+  transform: scaleY(0);
+  transition: transform 0.35s ease;
+  z-index: -1;
+}
+.principal-navbar .navbar-content ul a:hover::before {
+  transform: scaleY(1);
 }/*# sourceMappingURL=Navbar.css.map */
