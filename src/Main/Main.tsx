@@ -1,15 +1,15 @@
-import './Main.css';
+import "./Main.css";
 
-import FaveSection from "./FaveSection/FaveSection"
-import GallerySection from './GallerySection/GallerySection';
+import FaveSection from "./FaveSection/FaveSection";
+import GallerySection from "./GallerySection/GallerySection";
 
 function Main() {
-    return (
-        <main>
-            <FaveSection />
-            <GallerySection />
-        </main>
-    );
+  return (
+    <main>
+      <FaveSection />
+      <GallerySection />
+    </main>
+  );
 }
 
-export default Main
+export default Main;
