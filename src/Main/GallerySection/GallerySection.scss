@@ -1,3 +1,6 @@
+/* * {
+  outline: 1px solid red;
+} */
 .gallery-section {
   scroll-margin-top: 93px;
   font-weight: 500;
@@ -8,12 +11,33 @@
     font-weight: 600;
     margin-bottom: 25px;
   }
-  .more-pictures {
+  .my-masonry-grid {
+    display: flex;
+    width: auto;
+  }
+  .my-masonry-grid_column {
+    padding: 5px;
+    background-clip: padding-box;
+  }
+  .image-card {
+    width: 100%;
+    margin-bottom: 16px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+    img {
+      display: block;
+      object-fit: cover;
+      width: 100%;
+      margin: 0 auto;
+    }
+  }
+  /* .more-pictures {
     text-align: center;
     a {
       &:hover {
         text-decoration: underline;
       }
     }
-  }
+  } */
 }

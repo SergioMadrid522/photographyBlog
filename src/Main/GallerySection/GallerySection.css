@@ -1,17 +1,44 @@
+/* * {
+  outline: 1px solid red;
+} */
 .gallery-section {
   scroll-margin-top: 93px;
   font-weight: 500;
   font-size: 19.5px;
   margin-bottom: 1.2em;
+  /* .more-pictures {
+    text-align: center;
+    a {
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  } */
 }
 .gallery-section h2 {
   font-size: 23px;
   font-weight: 600;
   margin-bottom: 25px;
 }
-.gallery-section .more-pictures {
-  text-align: center;
+.gallery-section .my-masonry-grid {
+  display: flex;
+  width: auto;
 }
-.gallery-section .more-pictures a:hover {
-  text-decoration: underline;
+.gallery-section .my-masonry-grid_column {
+  padding: 5px;
+  background-clip: padding-box;
+}
+.gallery-section .image-card {
+  width: 100%;
+  margin-bottom: 16px;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+}
+.gallery-section .image-card img {
+  display: block;
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+  margin: 0 auto;
 }/*# sourceMappingURL=GallerySection.css.map */
