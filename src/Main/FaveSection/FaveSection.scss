@@ -1,29 +1,29 @@
 .FaveSection {
-    scroll-margin-top: 110px;
-    h2 {
-        font-size: 23px;
-        font-weight: 600;
-        margin-bottom: 25px;
+  scroll-margin-top: 110px;
+  h2 {
+    font-size: 23px;
+    font-weight: 600;
+    margin-bottom: 25px;
+  }
+  .my-masonry-grid {
+    display: flex;
+    width: auto;
+  }
+  .my-masonry-grid_column {
+    padding: 5px;
+    background-clip: padding-box;
+  }
+  .image-card {
+    width: 100%;
+    margin-bottom: 16px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+    img {
+      display: block;
+      object-fit: cover;
+      width: 100%;
+      margin: 0 auto;
     }
-    .my-masonry-grid {
-        display: flex;
-        width: auto;
-    }
-    .my-masonry-grid_column {
-        padding: 5px; 
-        background-clip: padding-box;
-    }
-    .image-card {
-        width: 100%;
-        margin-bottom: 16px;
-        border-radius: 10px;
-        overflow: hidden;
-        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
-        img {
-            display: block;
-            object-fit: cover;
-            width: 100%;
-            margin: 0 auto;
-        }
-    }
+  }
 }

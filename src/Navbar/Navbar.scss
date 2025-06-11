@@ -1,55 +1,53 @@
 $gray-color: #cac5c4;
 $white-color: #fff;
 a {
-    width: 100%;
-    color: #000;
-    text-decoration: none;
+  width: 100%;
+  color: #000;
+  text-decoration: none;
 }
-/* .active {
-    padding: 5px;
-    background-color: #ecedeed2;
-    border-radius: 6px;
-    transition: all .2s ease;
-} */
-.principal-navbar {
-    background-color: $white-color;
-    border-bottom: 1px solid $gray-color;
-    position: sticky;
-    top: 0;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: normal;
-    z-index: 999;
-    .navbar-content {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        padding: 1.8em 4.7em;
-        ul {
-            display: flex;
-            justify-content: end;
-            list-style: none;
-            gap: 20px;
-            a {
-                padding: 5px;
-                position: relative;
-                width: 100%;
-                
-                &::before {
-                    content: "";
-                    border-radius: 4.5px;
-                    position: absolute;
-                    top: 0; left: 0; right: 0; bottom: 0;
-                    background-color: #e3eaf1f3; 
-                    transform-origin: left;
-                    transform: scaleY(0);
-                    transition: transform .35s ease;
-                    
-                    z-index: -1; 
-                }
-                &:hover::before {
-                    transform: scaleY(1);
-                }
-            }
+.global-navbar {
+  background-color: $white-color;
+  border-bottom: 1px solid $gray-color;
+  position: sticky;
+  top: 0;
+  font-family: "Montserrat", sans-serif;
+  font-weight: normal;
+  z-index: 999;
+  .hamburger-btn {
+    display: none;
+  }
+  .navbar-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.8em 4.7em;
+    ul {
+      display: flex;
+      justify-content: end;
+      list-style: none;
+      gap: 20px;
+      a {
+        padding: 5px;
+        position: relative;
+        width: 100%;
+        &::before {
+          content: "";
+          border-radius: 4.5px;
+          position: absolute;
+          top: 0;
+          left: 0;
+          right: 0;
+          bottom: 0;
+          background-color: #e3eaf1f3;
+          transform-origin: left;
+          transform: scaleY(0);
+          transition: transform 0.35s ease;
+          z-index: -1;
         }
+        &:hover::before {
+          transform: scaleY(1);
+        }
+      }
     }
+  }
 }
