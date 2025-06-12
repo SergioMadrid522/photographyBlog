@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Caprasimo&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap");
 a {
   width: 100%;
   color: #000;
@@ -11,6 +13,7 @@ a {
   top: 0;
   font-family: "Montserrat", sans-serif;
   font-weight: normal;
+  text-align: center;
   z-index: 999;
 }
 .global-navbar .hamburger-btn {
@@ -21,6 +24,25 @@ a {
   align-items: center;
   justify-content: space-between;
   padding: 1.8em 4.7em;
+}
+.global-navbar .navbar-content .website-logo a {
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+}
+.global-navbar .navbar-content .website-logo a span:first-of-type {
+  font-family: "Caprasimo", serif;
+  font-weight: 400;
+  font-size: 19px;
+  font-style: normal;
+}
+.global-navbar .navbar-content .website-logo a span:last-of-type {
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-size: 35px;
+  font-style: normal;
+  color: orange;
 }
 .global-navbar .navbar-content ul {
   display: flex;

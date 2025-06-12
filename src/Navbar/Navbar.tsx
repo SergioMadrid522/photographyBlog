@@ -1,3 +1,4 @@
+//import logo from "../assets/Imagen1.jpg";
 import { useState } from "react";
 import type {
   HamburgerButtonProps,
@@ -21,7 +22,8 @@ function NavbarContent({ items, isOpen }: NavbarContentProps) {
     <div className={`navbar-content ${isOpen ? "open" : ""}`}>
       <span className="website-logo">
         <a href="/">
-          <img src="/" alt="Fabian Gallery Logo" />
+          <span>FABIAN </span>
+          <span>Gallery</span>
         </a>
       </span>
       <ul>
