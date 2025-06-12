@@ -1,15 +1,15 @@
 footer {
   border-top: 1px solid #cac5c4;
   grid-area: footer;
-  padding: 15px;
   font-family: "Montserrat", sans-serif;
   font-weight: normal;
+  padding: 28px;
 }
 footer .footer-content {
-  width: 75%;
-  margin: 0 auto;
   display: flex;
   justify-content: space-between;
+  margin: 0 auto;
+  width: 75%;
 }
 footer .footer-content ul {
   list-style: none;
@@ -35,7 +35,7 @@ footer .footer-content .social-media-container ul li:nth-child(2) {
   header .main-pic img {
     width: 100%;
     -o-object-position: right center;
-       object-position: right center;
+    object-position: right center;
   }
   header .catch-phrase {
     top: 35%;
@@ -77,6 +77,9 @@ footer .footer-content .social-media-container ul li:nth-child(2) {
 }
 /* PHONES */
 @media screen and (width <= 767px) {
+  /*   * {
+    outline: 1px solid red;
+  } */
   .global-navbar {
     display: flex;
     align-items: center;
@@ -86,6 +89,7 @@ footer .footer-content .social-media-container ul li:nth-child(2) {
     display: block;
     border: none;
     background-color: #fff;
+    padding: 10px;
   }
   .global-navbar .hamburger-btn span .bi-list {
     font-size: 43px;
@@ -93,10 +97,10 @@ footer .footer-content .social-media-container ul li:nth-child(2) {
   }
   .global-navbar .navbar-content {
     position: absolute;
-    top: 50px;
+    top: 70px;
     opacity: 0;
     transform: translateY(-20px);
-    transition: max-height 0.8s ease-in, opacity 0.2s ease, transform 0.5s ease;
+    transition: max-height 0.1s ease, opacity 0.2s ease, transform 0.6s ease;
     z-index: 10;
     width: 100%;
   }
@@ -127,7 +131,7 @@ footer .footer-content .social-media-container ul li:nth-child(2) {
   header .main-pic img {
     width: 100%;
     -o-object-position: right center;
-       object-position: right center;
+    object-position: right center;
   }
   header .catch-phrase {
     top: 35%;
@@ -140,12 +144,18 @@ footer .footer-content .social-media-container ul li:nth-child(2) {
   header .catch-phrase p {
     font-size: 30px;
   }
+  main {
+    padding: 1em;
+  }
   main .FaveSection,
   main .gallery-section {
-    scroll-margin-top: 75px;
+    scroll-margin-top: 120px;
+  }
+  main .my-masonry-grid_column {
+    width: 60% !important;
   }
   .about-me {
-    scroll-margin-top: 75px;
+    scroll-margin-top: 120px;
     padding: 1em;
   }
   .about-me .about-wrap {
@@ -185,4 +195,4 @@ footer .footer-content .social-media-container ul li:nth-child(2) {
   footer .footer-content .social-media-container ul li a svg {
     width: 43px;
   }
-}/*# sourceMappingURL=Footer.css.map */
+} /*# sourceMappingURL=Footer.css.map */

@@ -2,26 +2,26 @@ import Masonry from "react-masonry-css";
 import "./FaveSection.css";
 
 import fave1 from "../../assets/faveShotsPics/fave1.webp";
+import fave2 from "../../assets/faveShotsPics/fave2.webp";
 import fave3 from "../../assets/faveShotsPics/fave3.webp";
+import fave4 from "../../assets/faveShotsPics/fave4.webp";
 import fave5 from "../../assets/faveShotsPics/fave5.webp";
-import fave9 from "../../assets/faveShotsPics/fave9.webp";
-import fave10 from "../../assets/faveShotsPics/fave10.webp";
-import fave11 from "../../assets/faveShotsPics/fave11.webp";
+import fave6 from "../../assets/faveShotsPics/fave6.webp";
 
 function FaveGridArea() {
   const images = [
     { src: fave1 },
+    { src: fave2 },
     { src: fave3 },
+    { src: fave4 },
     { src: fave5 },
-    { src: fave9 },
-    { src: fave10 },
-    { src: fave11 },
+    { src: fave6 },
   ];
   const breakpointColumnsObj = {
     default: 3,
     1100: 2,
     700: 2,
-    500: 1,
+    500: 2,
   };
   return (
     <Masonry
