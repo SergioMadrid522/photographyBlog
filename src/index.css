@@ -1,4 +1,11 @@
-:root {
+/* :root {
   display: grid;
-  grid-template-areas: "header header" "main main" "about about" "footer";
+  grid-template-areas:
+    "header header"
+    "main main"
+    "about about"
+    "footer";
+} */
+html {
+  scroll-behavior: smooth;
 }/*# sourceMappingURL=index.css.map */
