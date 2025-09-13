@@ -14,7 +14,7 @@ function About() {
                     <p>Hope you enjoy the photos — thanks for stopping by ✌️</p>
                 </div>
                 <div className="my-pic">
-                    <img src={ myPicture } alt="A picture of me" />
+                    <img src={ myPicture } alt="A picture of me" loading="lazy" />
                 </div>
             </div>
         </section>
