@@ -36,9 +36,14 @@
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
 }
 .gallery-section .image-card img {
+  cursor: pointer;
   display: block;
   -o-object-fit: cover;
      object-fit: cover;
   width: 100%;
   margin: 0 auto;
+  transition: all 0.25s ease;
+}
+.gallery-section .image-card img:hover {
+  filter: blur(0.5px) brightness(50%);
 }/*# sourceMappingURL=GallerySection.css.map */
