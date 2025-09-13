@@ -29,7 +29,7 @@ function NavbarContent({ items, isOpen }: NavbarContentProps) {
       <ul>
         {items.map((item, index) => (
           <span>
-            <li key={index}>
+            <li key={index} >
               <a href={item.href}>{item.label}</a>
             </li>
           </span>
