@@ -11,11 +11,9 @@ function NavbarContent({ items, isOpen }: NavbarContentProps) {
       </span>
       <ul>
         {items.map((item, index) => (
-            <span>
-                <li key={index} >
+            <li key={index}>
                 <a href={`#${item.href}`} rel="noreferrer">{item.label}</a>
-                </li>
-            </span>
+            </li>
         ))}
       </ul>
     </div>

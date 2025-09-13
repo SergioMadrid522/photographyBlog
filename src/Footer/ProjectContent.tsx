@@ -7,8 +7,8 @@ function ProjectContent() {
       <h2>Projects</h2>
       <nav>
         <ul>
-            {projects.map((item: project) => (
-                <li>
+            {projects.map((item: project, idx) => (
+                <li key={idx}>
                     <a href={item.link} target="_blank" rel="noreferrer">{item.name}</a>
                 </li>
             ))}

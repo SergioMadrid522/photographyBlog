@@ -1,3 +1,4 @@
+import type {image} from "./type.ts";
 //Fave Section
 import fave1 from "../assets/faveShotsPics/fave1.webp";
 import fave2 from "../assets/faveShotsPics/fave2.webp";
@@ -19,13 +20,13 @@ import gallery10 from "../assets/galleryPics/gallery10.webp";
 import gallery11 from "../assets/galleryPics/gallery11.webp";
 import gallery12 from "../assets/galleryPics/gallery12.webp";
 
-export const faveImages = [
-    { src: fave1 },
-    { src: fave2 },
-    { src: fave3 },
-    { src: fave4 },
-    { src: fave5 },
-    { src: fave6 },
+export const faveImages: image[] = [
+    { name:"Photo about a boat on the beach", link: fave1 },
+    { name:"Photo about the moon", link: fave2 },
+    { name:"Photo about a sunset", link: fave3 },
+    { name:"Photo about ", link: fave4 },
+    { name:"Photo about some birds at carpinter lagoon", link: fave5 },
+    { name:"Photo about my dad and brother riding their bikes at night", link: fave6 },
 ];
 
 export const faveBreakPointColumnsObj = {
@@ -35,19 +36,19 @@ export const faveBreakPointColumnsObj = {
     500: 2,
 };
 
-export const galleryImages = [
-    { src: gallery1 },
-    { src: gallery2 },
-    { src: gallery3 },
-    { src: gallery4 },
-    { src: gallery5 },
-    { src: gallery6 },
-    { src: gallery7 },
-    { src: gallery8 },
-    { src: gallery9 },
-    { src: gallery10 },
-    { src: gallery11 },
-    { src: gallery12 },
+export const galleryImages: image[] = [
+    { name:"Photo about a baot in early morning", link: gallery1 },
+    { name:"Photo about a bird flying away from us", link: gallery2 },
+    { name:"Photo about a boat upside down", link: gallery3 },
+    { name:"Photo about a bird looking at its food", link: gallery4 },
+    { name:"Photo about sunset", link: gallery5 },
+    { name:"Photo about the reflection of the sky on the sea", link: gallery6 },
+    { name:"Photo about a pink rose", link: gallery7 },
+    { name:"Photo about a man shooting a picture to the sunrise", link: gallery8 },
+    { name:"Photo about the moon", link: gallery9 },
+    { name:"Photo about a boat at the chapayan lagoon", link: gallery10 },
+    { name:"Photo about a field full of cows", link: gallery11 },
+    { name:"Photo about the sky before sunrise", link: gallery12 },
 ];
 export const galleryBreakPointColumnsObj = {
     default: 3,

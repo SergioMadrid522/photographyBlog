@@ -4,3 +4,56 @@ main {
   padding: 3em;
   font-family: "Montserrat", sans-serif;
 }
+  .modal {
+    backdrop-filter: blur(2px) brightness(20%);
+    position: fixed;
+    opacity: 1;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100dvh;
+    padding: 3.5em;
+    z-index: 99999;
+    transition: opacity 0.3s ease;
+    button {
+      background-color: transparent;
+      border: none;
+      margin: 10px 10px 0 0;
+      float: right;
+      cursor: pointer;
+      span {
+        svg {
+          width: 28px;
+          fill: #fff;
+        }
+      }
+    }
+    .modal-container {
+      background-color: #060505df;
+      display: flex;
+      width: 80%;
+      height: 80%;
+      overflow: hidden;
+      margin: 0 auto;
+      justify-content: center;
+      transform: translateY(13%);
+      border-radius: 8px;
+      
+      img {
+        border-radius: 8px;
+        width: auto;
+        height: auto;
+      }
+      .modal-content {
+        color: #f5f5f5;
+        padding: 20px;
+        width: 30%;
+        &__title {
+          text-align: center;
+        }
+        &__description {
+          line-height: 23px;
+        }
+      }
+    }
+  }
