@@ -1,10 +1,9 @@
-import "./Header.css";
+import type { HeaderProps } from "./type.ts";
+
 import MainPicture from "../assets/MainPhoto.webp";
 
-type HeaderProps = {
-  websiteName: string;
-  slogan: string;
-};
+import "./Header.css";
+
 function Header(props: HeaderProps) {
   const { websiteName, slogan } = props;
   return (
@@ -19,4 +18,5 @@ function Header(props: HeaderProps) {
     </header>
   );
 }
+
 export default Header;
