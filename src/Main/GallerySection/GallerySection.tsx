@@ -44,7 +44,7 @@ function FaveGridGallery() {
     >
       {images.map((img, index) => (
         <div key={index} className={`image-card`}>
-          <img src={img.src} alt={`Image ${index}`} />
+          <img src={img.src} alt={`Image ${index}`} loading="lazy" />
         </div>
       ))}
     </Masonry>

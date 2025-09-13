@@ -10,7 +10,7 @@ function Header(props: HeaderProps) {
   return (
     <header>
       <div className="main-pic">
-        <img src={MainPicture} alt="Main picture" />
+        <img src={MainPicture} alt="Main picture" loading="lazy" />
       </div>
       <div className="catch-phrase">
         <h1>{websiteName}</h1>
